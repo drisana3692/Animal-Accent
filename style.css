@@ -1,0 +1,23 @@
+#hi {
+    background-color: #d4abf5;
+}
+body {
+    background-color: #edc2ff;
+}
+h2 {
+    color: azure;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+marquee {
+    color:black;
+    text-decoration:underline overline;
+}
+h3, h4 {
+color: darkslategray;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#audio111 {
+height: 400px;
+width: 400px;
+}

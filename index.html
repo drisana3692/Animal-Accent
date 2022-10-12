@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title> ❤️ Animal Accent ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div id = "hi" class = "col-xs-12 header_div text-center">
+      <h2> ❤️ Animal Accent ❤️ </h2>
+      <marquee onMouseOver="this.stop()" onMouseOut="this.start()">Note - How to Use - Play different animal sounds like barking and roaring to identify the animal! Hover over marquee to read. </marquee>
+      <br>
+    </div>
+    <br>
+    <br>
+      <center>
+        <br>
+        <br>
+        
+        <button class = "btn btn-info"onclick="startClassification()"> START </button>
+        <h3 id = "result_label"> I can hear - </h3>
+        <h4 id = "result_accuracy"> Accuracy - </h4>
+        <br>
+        <img src = "LOL.jpg" id = "audio111" width = "700" height = "700">
+        <br>
+      </center>
+      <br>
+      <br>
+    </div>
+    <div class = "copy_right_footer">
+    </div>
+      </body>
+<script src="main.js"></script>
+  </body>
+</html>
